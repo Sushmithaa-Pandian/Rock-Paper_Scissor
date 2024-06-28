@@ -43,19 +43,26 @@ button:hover {
     background-color: #21a1f1;
 }
 
-.results, .final-result {
+#results, #final-result {
     text-align: left;
     font-size: 16px;
     color: #61dafb;
     margin-top: 20px;
 }
 
-.results p, .final-result p {
+#results p, #final-result p {
     margin: 5px 0;
 }
 
-.final-result {
+#final-result {
     font-size: 18px;
     font-weight: bold;
     margin-top: 30px;
 }
+
+.score {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+
